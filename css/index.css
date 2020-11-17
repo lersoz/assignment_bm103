@@ -1,5 +1,4 @@
 .topnav {
-  background-color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,20 +13,30 @@
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: rgb(221, 221, 221);
   color: black;
 }
 
 .topnav a.active {
-  background-color: turquoise;
-  color: white;
+  background-color: rgb(208, 208, 214);
+  color: black;
 }
 
 #comName {
   text-align: center;
-  color: turquoise;
+  color: rgb(79, 81, 190);
+  font-family: 'Special Elite', cursive;
+  font-size: 50px;
+  margin: 25px; 
+}
+
+.images {
+  border: white solid 3px;
+  display: block;
+  margin: auto;
 }
 #comLogo {
+  border: white solid 3px;
   display: block;
   margin: auto;
   width: 500px;
@@ -35,9 +44,66 @@
 
 body {
   display: block;
-  background-color: #343434;
-  font-family: "Roboto Mono", monospace;
+  background: rgb(34, 43, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 43, 195, 1) 0%,
+    rgba(255, 45, 45, 1) 100%
+  );
+  font-family: 'Comfortaa', cursive;
 }
 footer {
-    text-align: center;
+  display: block;
+  text-align: center;
+  color: darkgreen;
+}
+
+.url:link {
+  color: turquoise;
+}
+
+.url:visited {
+  color: green;
+}
+
+.url:hover {
+  color: hotpink;
+}
+
+.url:active {
+  color: blue;
+}
+
+.text {
+  color: lightgray;
+  font-size: 22px;
+  max-width: 50%;
+  display: block;
+  margin: 50px auto;
+  overflow: auto;"
+}
+.serviceH{
+  color: rgb(22, 22, 21);
+  font-size: 30px;
+  text-align: center;
+}
+#carrierImg1{
+  border: white solid 3px;
+  width: 500px;
+  float: right;
+  margin-right: 50px;
+}
+#carrierImg2{
+border: white solid 3px;;
+width: 500px;
+float: left;
+margin-left: 50px;
+margin-top: 31px;
+}
+#map {
+  width: 700px;
+  float: right;
+  margin-right: 50px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
