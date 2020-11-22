@@ -25,9 +25,9 @@
 #comName {
   text-align: center;
   color: rgb(79, 81, 190);
-  font-family: 'Special Elite', cursive;
+  font-family: "Special Elite", cursive;
   font-size: 50px;
-  margin: 25px; 
+  margin: 25px;
 }
 
 .images {
@@ -50,7 +50,7 @@ body {
     rgba(34, 43, 195, 1) 0%,
     rgba(255, 45, 45, 1) 100%
   );
-  font-family: 'Comfortaa', cursive;
+  font-family: "Comfortaa", cursive;
 }
 footer {
   display: block;
@@ -82,24 +82,24 @@ footer {
   margin: 50px auto;
   overflow: auto;
 }
-.serviceH{
+.serviceH {
   color: rgb(22, 22, 21);
   font-size: 30px;
   text-align: center;
 }
-#carrierImg1{
+#carrierImg1 {
   border: white solid 3px;
   width: 500px;
   float: right;
   margin-right: 50px;
 }
-#carrierImg2{
-border: white solid 3px;;
-width: 500px;
-float: left;
-margin-left: 50px;
-margin-top: 31px;
-margin-bottom: 20px;
+#carrierImg2 {
+  border: white solid 3px;
+  width: 500px;
+  float: left;
+  margin-left: 50px;
+  margin-top: 31px;
+  margin-bottom: 20px;
 }
 #map {
   width: 700px;
@@ -124,18 +124,16 @@ margin-bottom: 20px;
   opacity: 0.7;
 }
 
-
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
+  background: #55acee;
   color: white;
 }
 .fa-instagram {
   background: #125688;
   color: white;
 }
-
